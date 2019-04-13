@@ -1,0 +1,356 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Aleo', serif;*/
+	width: 100%vw;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+/*.ba-container{*/
+	/*padding-left: 20px;*/
+	/*padding-right: 20px;*/
+/*}*/
+.header_image {
+	background: url("../img/mountains_main.jpg") center no-repeat;
+	height: 745px;
+	position: relative;
+}
+.header-text {
+	margin: 0 auto;
+	color: #ffffff;
+	position: absolute;
+	top: 265px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+.header-text h1 {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 0.120em;
+	text-transform: uppercase;
+	line-height: 48px;
+	margin: 0;
+}
+.header-text h3 {
+	font-size: 22px;
+	font-weight: 300;
+	letter-spacing: 0.300em;
+	line-height: 30px;
+}
+.header-text .button input {
+	width: 650px;
+	height: 60px;
+	padding-left: 125px;
+	font-size: 14px;
+	font-weight: 300;
+	letter-spacing: 0.080em;
+	margin-top: 50px;
+}
+.header-text .search-button {
+	width: 150px;
+	height: 57px;
+	background: #5474FD;
+	border: none;
+	font-size: 14px;
+	font-family: 'Aleo', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.080em;
+}
+.search-button .search-tool {
+	text-align: center;
+	padding-left: 13px;
+}
+.header-text p {
+	font-weight: 300;
+	font-size: 14px;
+	letter-spacing: 0.100em;
+	margin-top: 120px;
+	line-height: 30px;
+}
+.ba-container1 {
+	height: 80px;
+	background: #5474FD;
+}
+.logo {
+	width: 540px;
+	color: #ffffff;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 80px;
+	letter-spacing: 0.080em;
+}
+.menu-tab a {
+	display: inline-block;
+	text-decoration: none;
+	list-style: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Aleo', serif;
+	letter-spacing: 0.080em;
+	text-align: center;
+	padding: 20px;
+	margin-top: 10px;
+}
+.section2 {
+	height: 685px;
+	background: url("../img/chooseUs.jpg") center center no-repeat;
+	position: relative;
+}
+.section2 .ba-container2 {
+	height: 685px;
+	width: 1110px;
+}
+.text {
+	margin: 0 auto;
+	width: 540px;
+	position: absolute;
+	top: 200px;
+	left: 160px;
+	float: left;
+}
+.text h2 {
+	font-size: 36px;
+	color: #ffffff;
+	font-family: 'Aleo', serif;
+	font-weight: 300;
+	margin-bottom: 65px;
+}
+.text p {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 0.080em;
+
+}
+.explore button {
+	margin-top: 50px;
+	width: 225px;
+	height: 60px;
+	background: #5474FD;
+	border: none;
+	text-transform: uppercase;
+	font-family: 'Aleo', serif;
+	font-weight: 400;
+	color: #ffffff;
+	letter-spacing: 0.080em;
+}
+.image {
+	margin-top: 120px;
+	width: 580px;
+	margin-left: 750px;
+}
+.image1 {
+	float: left;
+	width: 350px;
+	height: 220px;
+}
+.image2 {
+	padding-top: 3px;
+	float: right;
+}
+.section3 {
+	height: 340px;
+	background: #333333;
+}
+.flex-container .icons {
+	width: 1110px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	align-items: center;
+	height: 340px;
+	margin-left: 160px;
+}
+.icons {
+	background: url("../img/lines.png") center center no-repeat;
+	width: 490px;
+
+}
+.icons a {
+	list-style: none;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 400;
+	font-family: 'Aleo', serif;
+	text-align: center;
+}
+.icons img {
+	padding: 30px;
+}
+.spain1 {
+	background: url("../img/bookNow.jpg") center center no-repeat;
+	height: 700px;
+}
+article {
+	background: url("../img/background1.png");
+	width: 540px;
+	height: 370px;
+	margin-top: 230px;
+	margin-left: 160px;
+	padding: 50px 35px 50px 30px;
+	color: #ffffff;
+
+}
+article h3 {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0.080em;
+}
+article h2 {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 0.080em;
+	text-transform: uppercase;
+	line-height: 70px;
+}
+article p {
+	font-size: 16px;
+	font-weight: 200;
+	/*letter-spacing: 0.040em;*/
+	line-height: 20px;
+	margin-bottom: 50px;
+}
+article  button {
+	width: 220px;
+	height: 60px;
+	font-family: 'Aleo', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.080em;
+	background: #496BFE;
+	border: none;
+}
+.spain2 {
+	background: url("../img/BookNow2.jpg") center center no-repeat;
+	height: 700px;
+}
+.spain2 article {
+	float: right;
+	margin-right: 160px;
+}
+.section5 {
+	height: 730px;
+	background: url("../img/guy-background.jpg") center center no-repeat;
+}
+.section5 h2 {
+	color: #ffffff;
+	font-size: 36px;
+	font-family: 'Aleo', serif;
+	font-weight: 300;
+	padding-top: 120px;
+	text-align: center;
+}
+.touristInfo {
+	width: 1110px;
+	height: 285px;
+	text-align: center;
+	margin-left: 160px;
+	margin-top: 100px;
+}
+.touristPhoto {
+	float: left;
+}
+.touristText {
+	float: right;
+	width: 665px;
+	height: 285px;
+	background: #333333;
+	color: #ffffff;
+	padding: 50px 50px 50px 60px;
+}
+.touristText h3 {
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: left;
+}
+.touristText p {
+	font-size: 16px;
+	font-weight: 300;
+	text-align: left;
+	padding-top: 30px;
+	line-height: 20px;
+}
+.touristText i {
+	color: #496BFE;
+}
+.ba-footer {
+	height: 270px;
+	background: #232323;
+	text-align: center;
+	color: #ffffff;
+}
+.ba-footer h2 {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	padding-top: 120px;
+}
+.ba-footer p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+}
+.ba-footer a {
+	color: #ffffff;
+}
+a .different {
+	color: #496BFE;
+}
